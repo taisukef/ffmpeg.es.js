@@ -1,6 +1,6 @@
 # ffmpeg.es.js
  
-- ffmpeg.js ES module version
+- ffmpeg JavaScript ES module version
 - [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm)
 
 ## usage
