@@ -21,5 +21,7 @@ await ffmpeg.run("-i", "input.webm", "output.mp4");
 ```bash
 deno run -A make.js
 ```
-fetch "https://unpkg.com/@ffmpeg/ffmpeg@${version}/dist/ffmpeg.min.js"
-add export code
+
+1. fetch "https://unpkg.com/@ffmpeg/ffmpeg@${version}/dist/ffmpeg.min.js"
+2. add export code
+3. write "ffmpeg.es.js"
