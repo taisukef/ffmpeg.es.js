@@ -4,7 +4,7 @@ ffmpeg.js ES module version
 
 ## usage
 
-```
+```js
 import { FFmpeg } from "https://taisukef.github.io/ffmpeg.es.js/ffmpeg.es.js";
 
 const { createFFmpeg, fetchFile } = FFmpeg;
@@ -17,7 +17,7 @@ await ffmpeg.run("-i", "input.webm", "output.mp4");
 
 ## how to build
 
-```
+```bash
 deno run -A make.js
 ```
 fetch "https://unpkg.com/@ffmpeg/ffmpeg@${version}/dist/ffmpeg.min.js"
